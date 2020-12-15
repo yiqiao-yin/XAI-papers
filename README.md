@@ -86,6 +86,8 @@ This is an on-going attempt to consolidate interesting efforts in the area of un
   * GAN Dissection: Visualizing and Understanding Generative Adversarial Networks. _Bau et al. ICLR 2019_ [pdf](https://arxiv.org/abs/1811.10597)
   * Net2Vec: Quantifying and Explaining how Concepts are Encoded by Filters in Deep Neural Networks. _Fong & Vedaldi CVPR 2018_ [pdf](https://arxiv.org/abs/1801.03454)
   * Intriguing generalization and simplicity of adversarially trained neural networks. _Agarwal, Chen, Nguyen 2020_ [pdf](http://anhnguyen.me/project/generalization-simplicity-robust-networks/)
+  * Understanding the Role of Individual Units in a Deep Neural Network. _Bau et al. PNAS 2020_ [pdf](https://arxiv.org/abs/2009.05041)
+
 
 
 ## A5. Network surgery
@@ -98,6 +100,10 @@ This is an on-going attempt to consolidate interesting efforts in the area of un
 # B. Decision explanations
 
 ## B1. Attribution maps
+
+### B1.0 Surveys
+* Feature Removal Is A Unifying Principle For Model Explanation Methods. _Covert et al. 2020_ [pdf](https://arxiv.org/pdf/2011.03623.pdf "A survey that explains how 25 attribution methods remove features to measure their importance to model decisions.")
+
 ### B1.1 White-box / Gradient-based
 
 * A Taxonomy and Library for Visualizing Learned Features in Convolutional Neural Networks [pdf](https://arxiv.org/pdf/1606.07757.pdf)
@@ -182,8 +188,10 @@ This is an on-going attempt to consolidate interesting efforts in the area of un
 * Learning Explainable Models Using Attribution Priors. _Erion et al. 2019_ [pdf](https://arxiv.org/abs/1906.10670)
 * Interpretations are useful: penalizing explanations to align neural networks with prior knowledge. _Rieger et al. 2019_ [pdf](https://arxiv.org/pdf/1909.13584.pdf)
 
-### B2.2 Explaining by prototypical parts
+### B2.2 Explaining by examples (prototypes)
 * This Looks Like That: Deep Learning for Interpretable Image Recognition. _Chen et al. NeurIPS 2019_ [pdf](https://arxiv.org/abs/1806.10574) | [code](https://github.com/cfchen-duke/ProtoPNet)
+  * This Looks Like That, Because ... Explaining Prototypes for Interpretable Image Recognition. _Nauta et al. 2020_ [pdf](https://arxiv.org/pdf/2011.02863.pdf)
+
 
 ### B2.3 Others
 * Learning how to explain neural networks: PatternNet and PatternAttribution [pdf](https://arxiv.org/abs/1705.05598)
@@ -194,6 +202,8 @@ This is an on-going attempt to consolidate interesting efforts in the area of un
 * Towards robust interpretability with self-explaining neural networks. _Alvarez-Melis and Jaakola 2018_ [pdf](http://people.csail.mit.edu/tommi/papers/SENN_paper.pdf)  
 
 # C. Counterfactual explanations
+
+* Counterfactual Explanations for Machine Learning: A Review. _Verma et al. 2020_ [pdf](https://arxiv.org/pdf/2010.10596.pdf)
 * Interpreting Neural Network Judgments via Minimal, Stable, and Symbolic Corrections. _Zhang et al. 2018_ [pdf](http://papers.nips.cc/paper/7736-interpreting-neural-network-judgments-via-minimal-stable-and-symbolic-corrections.pdf)
 * Counterfactual Visual Explanations. _Goyal et al. 2019_ [pdf](https://arxiv.org/pdf/1904.07451.pdf)
 * Generative Counterfactual Introspection for Explainable Deep Learning. _Liu et al. 2019_ [pdf](https://arxiv.org/abs/1907.03077)
